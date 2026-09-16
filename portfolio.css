@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #e5e7eb;
+  background-color: #080d1a;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+a {
+  color: #6ea8fe;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #0b1120;
+  border-bottom: 1px solid #1c2436;
+  position: sticky;
+  top: 0;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.logo {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: #a7b0bd;
+  font-size: 15px;
+}
+
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+.hero {
+  padding: 70px 0;
+  text-align: left;
+  border-bottom: 1px solid #1c2436;
+}
+
+.role {
+  color: #6ea8fe;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.subtitle {
+  color: #a7b0bd;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  border: 1px solid #6ea8fe;
+  border-radius: 6px;
+  color: #6ea8fe;
+}
+
+.btn:hover {
+  background-color: #6ea8fe;
+  color: #080d1a;
+}
+
+section, footer {
+  padding: 50px 0;
+  border-bottom: 1px solid #1c2436;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+h3 {
+  margin: 15px 0 8px;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #0e1526;
+  border: 1px solid #1c2436;
+  padding: 16px 18px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  margin: 0 0 4px;
+}
+
+.year {
+  color: #6ea8fe;
+  font-size: 14px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  border: 1px solid #2a3348;
+  color: #d8dee9;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+}
+
+.timeline {
+  list-style: none;
+}
+
+.timeline li {
+  padding: 10px 0;
+  border-bottom: 1px solid #1c2436;
+  color: #c9cfda;
+}
+
+.timeline li:last-child {
+  border-bottom: none;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 15px 0;
+}
+
+.contact-links a {
+  border: 1px solid #2a3348;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #d8dee9;
+}
+
+.contact-links a:hover {
+  border-color: #6ea8fe;
+  color: #6ea8fe;
+}
+
+.copyright {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .nav-links a {
+    margin-left: 10px;
+    font-size: 13px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+}
